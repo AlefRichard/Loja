@@ -1,5 +1,5 @@
 <div id="homebody">
-	<div class="alinhado-centro borda-base espaco-vertical">
+	<div class="alinhado-centro borda-base espaco-vertical" style="padding-bottom: 5px;">
 		<h3>Seja bem vindo à nossa loja.</h3> 
 		<p>A melhor loja de comida, especiarias e temperos.
 		   Compre online e receba em casa.
