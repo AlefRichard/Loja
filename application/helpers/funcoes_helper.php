@@ -1,10 +1,11 @@
-<?php defined('BASEPATH') OR exit('No direct script access allowed');
+<?php
+defined('BASEPATH') OR exit('No direct script access allowed');
 /**
 * Author: Alef Richard
 * 2016
 */
 
-function limpar ($string)
+function limpar($string)
 {
 	$string = preg_replace('/[`^~\'"]/', null, iconv('UTF-8', 'ASCII//TRANSLIT', $string));
 	$string = strtolower($string);
@@ -13,7 +14,7 @@ function limpar ($string)
 	return $string;
 }
 
-function reais ($decimal)
+function reais($decimal)
 {
 	return "R$".number_format($decimal,2,",",".");
 }
